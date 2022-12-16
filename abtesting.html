@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Personas</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">My Portfolio</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link active  scrollto" href="index.html#portfolio">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="personas.html">Personas</a></li>
+              <li><a href="https://procrastinatingpanda822.github.io/cs1300redesignfinal/">Responsive Redesign</a></li>
+              <li><a href="abtesting.html">A/B Testing and Eye Tracking</a></li>
+              <li><a href="https://distressedkitten222.github.io/iterativedesign.github.io/">Iterative Redesign</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>A/B Testing and Eye Tracking</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li>A/B Testing and Eye Tracking</li>
+          </ol>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div id="d-flex justify-content-between align-items-center">
+            <div>
+                <h5>The goal of this assignment is to understand the value of quantitative and qualitative user tests for evaluating different UI designs.</h4>
+                <h2>Hypotheses</h2>
+                <h4>Based on our two different homepage designs of a fictional bakery, my group and I came up with three sets of hypotheses:</h5>
+                <div class="personas-gallery"">
+                  <img
+                      class="small-pic"
+                      src="./assets/img/abtesting/a.png"
+                      alt="persona-1"
+                  />
+                  <img
+                      class="small-pic"
+                      src="./assets/img/abtesting/b.png"
+                      alt="persona-2"
+                  />
+              </div>
+                <ul>
+                    <h4>
+                      Task Success Rate</h4>
+                      <p>Null Hypothesis: The success rate on Version A will be less than the success rate on Version B.</p>
+                      <P>Alternative Hypothesis: The success rate on Version A is going to be equal to version B because both designs provide add to cart and checkout functionality</P>
+                    <h4>Time for Completion</h4>
+                    <p>Null Hypothesis: The time until completion on Version A will be equal to or greater than the time until completion on Version B.
+                    </p>
+                    <p>Alternative Hypothesis: The time until completion on Version A is going to be less than that of Version B, because Version A has the cart directly on the menu page</p>
+                    <h4>
+                      Time to first item into cart
+                    </h4>
+                    <p>Null Hypothesis: The success rate on Version B will be equal to or less than the success rate on Version A.</p>
+                    <p>Alternative Hypothesis: The success rate on Version B is going to be greater than that of Version A, because Version B has red “Add to cart” buttons, which will draw the users attention more quickly than A’s purple buttons</p>
+                </ul>
+            </div>
+            <div>
+                <h2>Eye Tracking Test Results</h2>
+                <h4>Heat Map and Eye Tracking Replay for Design A:</h4>
+                <div class="personas-gallery">
+                  <img
+                      class="small-pic"
+                      src="./assets/img/abtesting/a_heatmap.png"
+                      alt="persona-1"
+                  />
+                  <img
+                      class="small-pic"
+                      src="./assets/img/abtesting/a_replay.png"
+                      alt="persona-2"
+                  />
+              </div>
+              <div>
+                <h4>Heat Map and Eye Tracking Replay for Design B:</h4>
+                  <div class="personas-gallery">
+                    <img
+                        class="small-pic"
+                        src="./assets/img/abtesting/b_heatmap.png"
+                        alt="persona-1"
+                    />
+                    <img
+                        class="small-pic"
+                        src="./assets/img/abtesting/b_replay.png"
+                        alt="persona-2"
+                    />
+                </div>
+              </div>
+              
+                <h3>Key Observations</h3>
+                <p>Based on our results, we reject our time for completion null hypothesis. The data file for version A was longer than the data file for version B, which tells us that the user for version A took longer than the user for version B. The user was able to add a specific food item and checkout more quickly on version B than on version A. This was due to the fact that version A had items already in the cart, which may have confused the user of version A, whereas version B had a more straightforward interface. In the replay of the eye tracker, you could see the version A user look up and down the page, implying confusion. Thus, we believe that version B would be a better interface for the bakery.</p>
+              <h4>It was interesting to see how even subtle design changes can have a large effect on user response to simple tasks. Being able to utilize eye tracking data and programs to visualize first-hand how users interact with design choices was eye-opening and I was able to learn a lot from this experience.</h4>
+        </div>
+      </div>
+
+  </main>
+
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="credits">
+        Designed with love in CSCI 1300
+      </div>
+
+    </div>
+  </div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
